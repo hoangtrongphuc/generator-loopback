@@ -95,6 +95,7 @@ module.exports = yeoman.Base.extend({
         basePath = basePath.substring(1);
       }
 
+      /*
       var swaggerModel = 'swagger_' + basePath.replace(/\//g, '_');
       self.modelNames.push(swaggerModel);
       var modelDef = {
@@ -114,6 +115,7 @@ module.exports = yeoman.Base.extend({
         dataSource: null,
         public: true,
       });
+      */
     }
 
     // eslint-disable-next-line one-var
